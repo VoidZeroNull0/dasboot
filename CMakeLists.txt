@@ -145,7 +145,7 @@ add_subdirectory(dasboot)
 
 # Unit-tests
 
-option(MYLIB_TESTING "Turn on ut-testing" ON)
+set(MYLIB_TESTING "Turn on ut-testing" ON)
 
 if(NOT MYLIB_TESTING)
     message(STATUS "Turned off ut-testing")

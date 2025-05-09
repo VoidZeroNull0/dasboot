@@ -1,4 +1,4 @@
-name: Clang gtest pipeline
+name: Clang-test pipeline
 
 on:
   push:
